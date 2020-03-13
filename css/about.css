@@ -1,0 +1,51 @@
+
+.about-title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.about-paragraph {
+  right: 20%;
+  left: 20%;
+  position: absolute;
+  margin: 2rem 0rem;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  display: inline-block;
+}
+
+/* To change slected text color in heading to light-blue */
+h1::selection {
+  background: #9D4CF9;
+}
+
+/* Firefox support for to change slected text color in heading to light-blue */
+h1::-moz-selection {
+  background: #9D4CF9;
+}
+
+/* To change slected text color in paragraph to pink */
+br::selection {
+  background: #FA048E;
+}
+
+/* Firefox support for to change slected text color in paragraph to pink */
+br::-moz-selection {
+  background: #FA048E;
+}
+
+/* To change slected text color in paragraph to pink */
+p::selection {
+  background: #FA048E;
+}
+
+/* Firefox support for to change slected text color in paragraph to pink */
+p::-moz-selection {
+  background: #FA048E;
+}
+
+.about-btn {
+  display: inline-block;
+  padding-top: 5rem;
+}
