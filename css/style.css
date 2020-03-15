@@ -1,4 +1,9 @@
 
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
 .home-div {
   /* background: url("../images/hello.png") no-repeat center center; */
   color: #D2D2DC;
