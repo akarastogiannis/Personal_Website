@@ -43,3 +43,55 @@
   color: #D2D2DC;
   margin-top: 1rem;
 }
+
+.nav-link-selected {
+  font-family: 'Oxanium', cursive;
+}
+
+.nav-num-selected {
+  font-family: 'Oxanium', cursive;
+  color: blue;
+}
+
+.nav-num-about {
+  display: none;
+  font-family: 'Oxanium', cursive;
+  color: blue;
+}
+
+.nav-num-portfolio {
+  display: none;
+  font-family: 'Oxanium', cursive;
+  color: red;
+}
+
+.nav-num-resume {
+  display: none;
+  font-family: 'Oxanium', cursive;
+  color: #7802AC;
+}
+
+.nav-num-contact {
+  display: none;
+  font-family: 'Oxanium', cursive;
+  color: #D13F05;
+}
+
+/* .nav-link-selected:hover {
+  font-size: 24px;
+} */
+
+.nav-link-option:hover {
+  font-family: 'Oxanium', cursive;
+  /* font-size: 24px; */
+  color: blue;
+}
+
+.nav-link-selected {
+  /* text-decoration: underline blue; */
+  border-bottom: 1px solid blue;
+}
+
+.nav-link-social-media:hover {
+  font-size: 1.4rem;
+}

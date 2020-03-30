@@ -1,4 +1,9 @@
 
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
 .about-title {
   font-family: 'Pacifico', cursive;
   text-align: center;
@@ -58,6 +63,10 @@
   border-bottom: 1px solid blue;
 }
 
+.nav-link-social-media:hover {
+  font-size: 1.4rem;
+}
+
 .technical-skills {
   text-align: center;
   padding-top: .5rem;
@@ -76,9 +85,18 @@
   border-top: 1px dashed;
 }
 
+.optional-skills-name {
+  border-style: double;
+}
+
 .optional-skills {
   text-align: center;
   padding-top: .5rem;
+  border-style: double;
+}
+
+.optional-skills ul {
+  text-align: left;
 }
 
 /* To change slected text color in heading to light-blue */
@@ -113,5 +131,5 @@ p::-moz-selection {
 
 .about-btn {
   display: inline-block;
-  padding-top: 5rem;
+  padding: 5rem 0rem;
 }
