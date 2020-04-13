@@ -1,4 +1,4 @@
-// This is the JavaScript for the index.html Page!
+// This is the JavaScript fo the portfolio.html Page!
 
 // Jquery for 2.Portfolio link
 $(document).ready(function(){
@@ -10,19 +10,6 @@ $(document).ready(function(){
   }, function() {
     $(".nav-num-about").css({"display": "none"});
     $(".nav-link-about").css({"border-bottom": "0px solid blue"});
-  });
-});
-
-// Jquery for 2.Portfolio link
-$(document).ready(function(){
-  $(".nav-link-portfolio").hover(function(){
-    $(".nav-num-portfolio").css({"display": "inline"});
-    $(".nav-link-portfolio").css({"border-bottom": "1px solid red"});
-    // Hide Selected One
-
-  }, function() {
-    $(".nav-num-portfolio").css({"display": "none"});
-    $(".nav-link-portfolio").css({"border-bottom": "0px solid red"});
   });
 });
 
@@ -50,17 +37,4 @@ $(document).ready(function(){
     $(".nav-num-contact").css({"display": "none"});
     $(".nav-link-contact").css({"border-bottom": "0px solid #D13F05"});
   });
-});
-
-// This code is for resizing certain css styles on small phone devices
-$(document).ready(function(){
-  $(window).resize(function(){
-    if($(window).width() <= 576) {
-      $(".developer-hint-left").css({"font-size": "1.5rem"});
-      $(".developer-hint-right").css({"font-size": "1.5rem"});
-    } else {
-      // Conduct Business as Usual
-      $(".developer-hint-left").css({"font-size": "3rem"});
-      $(".developer-hint-right").css({"font-size": "3rem"});    }
-  }).resize();
 });

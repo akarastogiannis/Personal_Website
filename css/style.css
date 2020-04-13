@@ -24,6 +24,18 @@
   padding: 3px;
 } */
 
+/* This is where I handle the devloper hint text above and below image */
+.developer-hint-left{
+  padding-right: 30%; /* moving it to the left */
+  font-size: 3rem; /* Changing Font Size */
+}
+
+.developer-hint-right {
+  padding-left: 30%; /* moving it to the right */
+  font-size: 3rem; /* Changing Font Size */
+}
+/*************************************************************************/
+
 /* This way makes it look like image center and name and button in image also centered */
 .home-img, .home-info {
   width: 100%;
@@ -33,11 +45,14 @@
   left: 0;
 }
 
+/* This is for changing btn + text on front home img */
 .home-info {
-   top: 90%;
+   top: 120%;
    z-index: 10;
 }
 
+/* This is for css style for the btn in front of img on home screen */
+/* Only change the style and margin to top of div for this one */
 .home-btn-custom {
   background-color: Transparent;
   color: #D2D2DC;
