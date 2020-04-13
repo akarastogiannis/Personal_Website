@@ -1,0 +1,134 @@
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.about-title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.about-paragraph {
+  right: 20%;
+  left: 20%;
+  position: absolute;
+  margin: 2rem 0rem;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.nav-link-selected {
+  font-family: 'Oxanium', cursive;
+}
+
+.nav-num-about {
+  display: none;
+  font-family: 'Oxanium', cursive;
+  color: blue;
+}
+
+.nav-num-portfolio {
+  display: none;
+  font-family: 'Oxanium', cursive;
+  color: red;
+}
+
+.nav-num-selected {
+  font-family: 'Oxanium', cursive;
+  color: #7802AC;
+}
+
+.nav-num-contact {
+  display: none;
+  font-family: 'Oxanium', cursive;
+  color: #D13F05;
+}
+
+/* .nav-link-selected:hover {
+  font-size: 24px;
+} */
+
+.nav-link-option:hover {
+  font-family: 'Oxanium', cursive;
+  /* font-size: 24px; */
+  color: blue;
+}
+
+.nav-link-selected {
+  /* text-decoration: underline blue; */
+  border-bottom: 1px solid #7802AC;
+}
+
+.nav-link-social-media:hover {
+  font-size: 1.4rem;
+}
+
+.technical-skills {
+  text-align: center;
+  padding-top: .5rem;
+  border-style: double;
+}
+
+.technical-skills ul {
+  text-align: left;
+}
+
+.technical-skills-name {
+  border-style: double;
+}
+
+.dotted-line {
+  border-top: 1px dashed;
+}
+
+.optional-skills-name {
+  border-style: double;
+}
+
+.optional-skills {
+  text-align: center;
+  padding-top: .5rem;
+  border-style: double;
+}
+
+.optional-skills ul {
+  text-align: left;
+}
+
+/* To change slected text color in heading to light-blue */
+h1::selection {
+  background: #9D4CF9;
+}
+
+/* Firefox support for to change slected text color in heading to light-blue */
+h1::-moz-selection {
+  background: #9D4CF9;
+}
+
+/* To change slected text color in paragraph to pink */
+br::selection {
+  background: #FA048E;
+}
+
+/* Firefox support for to change slected text color in paragraph to pink */
+br::-moz-selection {
+  background: #FA048E;
+}
+
+/* To change slected text color in paragraph to pink */
+p::selection {
+  background: #FA048E;
+}
+
+/* Firefox support for to change slected text color in paragraph to pink */
+p::-moz-selection {
+  background: #FA048E;
+}
+
+.about-btn {
+  display: inline-block;
+  padding: 5rem 0rem;
+}
