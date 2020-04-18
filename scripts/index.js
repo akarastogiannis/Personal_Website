@@ -56,11 +56,14 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(window).resize(function(){
     if($(window).width() <= 576) {
-      $(".developer-hint-left").css({"font-size": "1.5rem"});
-      $(".developer-hint-right").css({"font-size": "1.5rem"});
+      $(".developer-hint-left").css({"font-size": "2rem"});
+      $(".developer-hint-right").css({"font-size": "2rem"});
+      $(".home-info").css({"top": "100%"});
     } else {
       // Conduct Business as Usual
       $(".developer-hint-left").css({"font-size": "3rem"});
-      $(".developer-hint-right").css({"font-size": "3rem"});    }
+      $(".developer-hint-right").css({"font-size": "3rem"});
+      $(".home-info").css({"top": "120%"});
+    }
   }).resize();
 });

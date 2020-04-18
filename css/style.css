@@ -26,12 +26,14 @@
 
 /* This is where I handle the devloper hint text above and below image */
 .developer-hint-left{
+  color: #8a7e41;
   padding-right: 30%; /* moving it to the left */
   font-size: 3rem; /* Changing Font Size */
   animation: developer-hint-left-animation 3s 1 0s linear;
 }
 
 .developer-hint-right {
+  color: #1f5671;
   padding-left: 30%; /* moving it to the right */
   font-size: 3rem; /* Changing Font Size */
   animation: developer-hint-right-animation 3s 1 0s linear;
@@ -134,7 +136,7 @@
 
 /* This is for changing btn + text on front home img */
 .home-info {
-   top: 120%;
+   top: 120%; /* changing the btn and Name Text above img */
    z-index: 10;
 }
 
