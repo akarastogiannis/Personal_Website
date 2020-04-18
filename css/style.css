@@ -28,13 +28,100 @@
 .developer-hint-left{
   padding-right: 30%; /* moving it to the left */
   font-size: 3rem; /* Changing Font Size */
+  animation: developer-hint-left-animation 3s 1 0s linear;
 }
 
 .developer-hint-right {
   padding-left: 30%; /* moving it to the right */
   font-size: 3rem; /* Changing Font Size */
+  animation: developer-hint-right-animation 3s 1 0s linear;
 }
 /*************************************************************************/
+
+
+/* All  this is regarding the transistion effect of developer-hint-left */
+@keyframes developer-hint-left-animation{
+    0%{
+        transform: translateX(1000px);
+        }
+    2%{
+        transform: translateX(900px);
+        }
+    5%{
+        transform: translateX(800px);
+        }
+    9%{
+        transform: translateX(700px);
+        }
+    13%{
+        transform: translateX(600px);
+        }
+    17%{
+        transform: translateX(500px);
+        }
+    20%{
+        transform: translateX(400px);
+        }
+    24%{
+        transform: translateX(300px);
+        }
+    27%{
+        transform: translateX(200px);
+        }
+    30%{
+        transform: translateX(100px);
+        }
+    33%{
+        transform: translateX(100px);
+        }
+    36%{
+        transform: rotate(xx) translateX(100px);
+        }
+      }
+
+/**************************************************************************/
+
+/* All  this is regarding the transistion effect of developer-hint-right */
+@keyframes developer-hint-right-animation{
+    0%{
+        transform: translateX(-1000px);
+        }
+    2%{
+        transform: translateX(-900px);
+        }
+    5%{
+        transform: translateX(-800px);
+        }
+    9%{
+        transform: translateX(-700px);
+        }
+    13%{
+        transform: translateX(-600px);
+        }
+    17%{
+        transform: translateX(-500px);
+        }
+    20%{
+        transform: translateX(-400px);
+        }
+    24%{
+        transform: translateX(-300px);
+        }
+    27%{
+        transform: translateX(-200px);
+        }
+    30%{
+        transform: translateX(-100px);
+        }
+    33%{
+        transform: translateX(-100px);
+        }
+    36%{
+        transform: rotate(xx) translateX(100px);
+        }
+      }
+
+/**************************************************************************/
 
 /* This way makes it look like image center and name and button in image also centered */
 .home-img, .home-info {

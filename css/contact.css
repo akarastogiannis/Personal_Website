@@ -3,6 +3,10 @@
   font-size: 20px;
 }
 
+body {
+  background-color: black;
+}
+
 .about-title {
   font-family: 'Pacifico', cursive;
   text-align: center;
