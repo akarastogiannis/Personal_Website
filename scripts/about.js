@@ -40,6 +40,7 @@ $(document).ready(function(){
 });
 
 
+// For media screens 576 and smaller, for all phones basically
 $(document).ready(function(){
   $(window).resize(function(){
     if($(window).width() <= 576) {
@@ -47,6 +48,18 @@ $(document).ready(function(){
     } else {
       // Conduct Business as Usual
       $(".about-paragraph").css({"right": "20%", "left": "20%"});
+    }
+  }).resize();
+});
+
+// For media screens 900 px width and smaller, for big ipads and phones
+$(document).ready(function(){
+  $(window).resize(function(){
+    if($(window).width() <= 900) {
+      $("#footer-section").css({"margin-top": "90rem"});
+    } else {
+      // Conduct Business as Usual
+      $("#footer-section").css({"margin-top": "60rem"});
     }
   }).resize();
 });

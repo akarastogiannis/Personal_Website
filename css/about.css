@@ -133,3 +133,19 @@ p::-moz-selection {
   display: inline-block;
   padding: 5rem 0rem;
 }
+
+/* Footer Section Goes Here */
+#footer-section {
+  background-color: #160e06;
+  height: 18rem;
+  margin-top: 60rem;
+  bottom: 0px;
+}
+
+.footer-name-style {
+  text-align: center;
+  padding: 3rem 3rem 0rem 3rem;
+  color: #a0a3a3;
+  font-size: 1.7rem;
+  font-family: 'Pacifico', cursive;
+}
