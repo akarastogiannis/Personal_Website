@@ -59,15 +59,11 @@ $(document).ready(function(){
       $(".developer-hint-left").css({"font-size": "2rem"});
       $(".developer-hint-right").css({"font-size": "2rem"});
       $(".home-info").css({"top": "100%"});
-      $(".home-img, .home-info").css({"padding-left": "1rem"});
-      $(".home-img, .home-info").css({"padding-right": "1rem"});
     } else {
       // Conduct Business as Usual
       $(".developer-hint-left").css({"font-size": "3rem"});
       $(".developer-hint-right").css({"font-size": "3rem"});
       $(".home-info").css({"top": "120%"});
-      $(".home-img, .home-info").css({"padding-left": "0rem"});
-      $(".home-img, .home-info").css({"padding-right": "0rem"});
     }
   }).resize();
 });
