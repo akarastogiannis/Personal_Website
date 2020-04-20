@@ -12,7 +12,7 @@ body {
   /* background: url("../images/hello.png") no-repeat center center; */
   color: #D2D2DC;
   margin: 5rem 0rem; /* change this to 0rem 0rem if you switch to protocol one. */
-  padding: 5rem 2.5rem;
+  /* padding: 5rem 2.5rem; */
   text-align: center;
   position: relative;
 }
@@ -28,6 +28,15 @@ body {
   padding: 3px;
 } */
 
+.home-hint-left {
+  position: relative;
+  z-index: 200;
+}
+
+.home-hint-right {
+  position: relative;
+  z-index: 200;
+}
 /* This is where I handle the devloper hint text above and below image */
 .developer-hint-left{
   color: #8a7e41;
@@ -129,20 +138,63 @@ body {
 
 /**************************************************************************/
 
+/* This is the img css where it handles the main-img in the index page. */
+.main-img {
+  width: 100%;
+  height: auto;
+  -moz-box-shadow: 0 0 10px #fff;
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0px 0px 10px #fff; /* for the outline effect around the img and support for other browsers */
+  /* transform: rotate(15deg); */
+}
+
 /* This way makes it look like image center and name and button in image also centered */
 .home-img, .home-info {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  /* width: 100%; */
+  /* height: 100%; */
+  position: relative;
   top: 0;
   left: 0;
+  display: inline-block;
 }
 
 /* This is for changing btn + text on front home img */
 .home-info {
-   top: 120%; /* changing the btn and Name Text above img */
+   /* top: 120%; /* changing the btn and Name Text above img */ */
    z-index: 10;
+   position: relative;
 }
+
+.home-info-1 {
+  /* display: inline-block;
+  margin: 0 auto;
+  padding: 3px; */
+  /* display: inline-block;
+  margin: 0rem auto;
+  position: absolute;
+  left: 35%;
+  top: 20%; */
+  position: absolute;
+   top: 45%;
+   left: 15%;
+   margin-top: -50px;
+   margin-left: -50px;
+   width: 400px;
+   height: 100px;
+}
+
+/* .home-img {
+  position: relative;
+} */
+
+.home-h {
+  /* display: inline-block; */
+  /* position: absolute;
+  top: 38%;
+  left: 35%; */
+  font-size: 1.5rem;
+}
+
 
 /* This is for css style for the btn in front of img on home screen */
 /* Only change the style and margin to top of div for this one */
@@ -151,6 +203,9 @@ body {
   color: #D2D2DC;
   margin-top: 1rem;
   border-radius: 10px;
+  /* position: absolute;
+  top: 44%;
+  left: 44%; */
 }
 
 .nav-link-selected {

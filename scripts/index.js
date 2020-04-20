@@ -58,12 +58,16 @@ $(document).ready(function(){
     if($(window).width() <= 576) {
       $(".developer-hint-left").css({"font-size": "1.7rem"});
       $(".developer-hint-right").css({"font-size": "1.7rem"});
-      $(".home-info").css({"top": "100%"});
+      $(".home-info-1").css({"left": "8%"});
+      $(".main-img").css({"width": "350px"});
+      $(".main-img").css({"height": "400px"});
     } else {
       // Conduct Business as Usual
       $(".developer-hint-left").css({"font-size": "3rem"});
       $(".developer-hint-right").css({"font-size": "3rem"});
-      $(".home-info").css({"top": "120%"});
+      $(".home-info-1").css({"left": "15%"});
+      $(".main-img").css({"width": "100%"});
+      $(".main-img").css({"height": "auto"});
     }
   }).resize();
 });
