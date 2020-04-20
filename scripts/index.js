@@ -56,8 +56,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(window).resize(function(){
     if($(window).width() <= 576) {
-      $(".developer-hint-left").css({"font-size": "2rem"});
-      $(".developer-hint-right").css({"font-size": "2rem"});
+      $(".developer-hint-left").css({"font-size": "1.7rem"});
+      $(".developer-hint-right").css({"font-size": "1.7rem"});
       $(".home-info").css({"top": "100%"});
     } else {
       // Conduct Business as Usual

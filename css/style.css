@@ -1,4 +1,8 @@
 
+body {
+  background-color: #010f0f;
+}
+
 .navbar-brand {
   font-family: 'Pacifico', cursive;
   font-size: 20px;
@@ -146,6 +150,7 @@
   background-color: Transparent;
   color: #D2D2DC;
   margin-top: 1rem;
+  border-radius: 10px;
 }
 
 .nav-link-selected {

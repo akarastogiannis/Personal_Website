@@ -136,3 +136,26 @@ p::-moz-selection {
   display: inline-block;
   padding: 5rem 0rem;
 }
+
+/* Regarding the Profile Section */
+.profile-contents {
+  position: absolute;; /* so that the position is relative to the div above it */
+  margin: 4rem 0rem 0rem 0rem;
+}
+.profile-box {
+  width: 700px;
+  height: 300px;
+  background-color: #627ee3;
+  margin: 10rem 20rem 10rem 20rem;
+  border-radius: 30px;
+}
+.profile-img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+  /* margin: 6rem 0rem 0rem 5rem; */
+}
+
+.profile-text {
+
+}
